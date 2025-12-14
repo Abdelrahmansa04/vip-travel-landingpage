@@ -111,13 +111,17 @@ body {
 .cta-btn {
     background: linear-gradient(135deg, var(--primary-gold) 0%, var(--dark-gold) 100%);
     color: var(--black);
-    padding: 12px 30px;
+    padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    width: fit-content;
+    display: block;
+    max-height: 50px;
+
 }
 
 .cta-btn:hover {
@@ -154,7 +158,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(139,0,0,0.6) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(139, 0, 0, 0.6) 100%);
 }
 
 .hero-text {
@@ -174,7 +178,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: fadeInDown 1s ease;
 }
 
@@ -240,7 +244,7 @@ body {
     padding: 40px 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 2px solid transparent;
 }
@@ -516,7 +520,7 @@ body {
 .booking-form {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
-    padding: 40px;
+    padding: 20px;
     border-radius: 15px;
     border: 1px solid rgba(212, 175, 55, 0.2);
 }
@@ -842,6 +846,7 @@ body {
         opacity: 0;
         transform: translateY(-30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -853,6 +858,7 @@ body {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -864,72 +870,72 @@ body {
     .nav-menu {
         display: none;
     }
-    
+
     .hero {
         height: 70vh;
         min-height: 400px;
     }
-    
+
     .hero-text h1 {
         font-size: 2.5rem;
     }
-    
+
     .hero-text p {
         font-size: 1.2rem;
     }
-    
+
     .section-title {
         font-size: 2rem;
     }
-    
+
     .about-content {
         grid-template-columns: 1fr;
     }
-    
+
     .features-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .service-card {
         grid-template-columns: 1fr;
         gap: 0;
     }
-    
+
     .service-card.reverse {
         direction: rtl;
     }
-    
+
     .service-image-wrapper {
         min-height: 300px;
         order: 1;
     }
-    
+
     .service-content {
         order: 2;
         padding: 30px 25px;
     }
-    
+
     .service-content h3 {
         font-size: 1.6rem;
     }
-    
+
     .service-content p {
         font-size: 1rem;
     }
-    
+
     .booking-wrapper {
         grid-template-columns: 1fr;
     }
-    
+
     .form-row {
         grid-template-columns: 1fr;
     }
-    
+
     .footer-grid {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
+
     .footer-links a:hover {
         padding-right: 0;
     }
@@ -940,11 +946,11 @@ body {
         height: 60vh;
         min-height: 350px;
     }
-    
+
     .hero-text h1 {
         font-size: 2rem;
     }
-    
+
     .hero-text p {
         font-size: 1rem;
     }
